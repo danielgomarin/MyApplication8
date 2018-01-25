@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- botones negros. -->
+    <style name="estilobotonnegro">
+        <item name="android:textColor">@color/colorrojo</item>
+        <item name="android:shadowColor">@color/colorvorde</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:background">@drawable/prueba_selector</item>
+    </style>
+    <!-- botones rojos. -->
+    <style name="estilobotonrojo">
+        <item name="android:textColor">@color/colornegro</item>
+        <item name="android:shadowColor">@color/colorvorde</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:background">@drawable/estilo_boton_rojo</item>
+    </style>
+
+</resources>
